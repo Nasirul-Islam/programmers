@@ -1,0 +1,11 @@
+.programmer {
+    background: rgb(243, 239, 239);
+}
+.programmer img{
+    height: 300px;
+    border-radius: 14px;
+}
+
+.programmer h6{
+    color: gray;
+}

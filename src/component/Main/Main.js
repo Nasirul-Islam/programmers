@@ -11,18 +11,19 @@ const Main = () => {
             .then(res => res.json())
             .then(data => setProgrammers(data))
     }, [])
-
+    // Event Handler
     const handleButton = (programmer) => {
         const newCard = [...card, programmer];
         setCard(newCard);
-        // console.log(newCard)
     }
     return (
         <div className="container">
             <div className="row">
+                {/* Card Part */}
                 <div className="col-md-3">
                     <Card card={card}></Card>
                 </div>
+                {/* Programmer Part */}
                 <div className="col-md-9 row">
                     {
                         programmers.map(programmer => <Programmer

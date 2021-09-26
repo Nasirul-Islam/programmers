@@ -11,12 +11,12 @@ const Programmer = (props) => {
         <div className="col-md-4 g-3 programmers">
             <div className="card h-100 programmer">
                 <img src={img} className="card-img-top img-fluid p-2" alt="..." />
-                <div class="card-body">
+                <div className="card-body">
                     <h5 className="card-title">Name: {name}</h5>
-                    <h6 className="card-text m-0">Email: {email}</h6>
-                    <h6 className="card-text m-0">Skill: {skill}</h6>
-                    <h6 className="card-text m-0">Country: {country}</h6>
-                    <h6 className="card-text m-0">Salary: {salary}</h6>
+                    <h6 className="card-text my-2">Email: {email}</h6>
+                    <h6 className="card-text my-2">Skill: {skill}</h6>
+                    <h6 className="card-text my-2">Country: {country}</h6>
+                    <h6 className="card-text my-2">Salary: {salary}</h6>
                 </div>
                 <div className="p-3">
                     <button

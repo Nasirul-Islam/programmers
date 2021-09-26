@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = () => {
     return (
-
+        // Nav Bar 
         <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
             <div className="container">
                 <a className="navbar-brand text-light fs-4 fw-bold" href="./home">Programmer</a>
@@ -24,6 +24,7 @@ const Nav = () => {
                             <a className="nav-link text-light" href="./contract">Contract</a>
                         </li>
                     </ul>
+                    {/* Search Field */}
                     <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-info" type="submit">Search</button>

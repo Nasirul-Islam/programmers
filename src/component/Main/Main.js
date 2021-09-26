@@ -20,6 +20,9 @@ const Main = () => {
     return (
         <div className="container">
             <div className="row">
+                <div className="col-md-3">
+                    <Card card={card}></Card>
+                </div>
                 <div className="col-md-9 row">
                     {
                         programmers.map(programmer => <Programmer
@@ -28,9 +31,6 @@ const Main = () => {
                             handleButton={handleButton}
                         ></Programmer>)
                     }
-                </div>
-                <div className="col-md-3">
-                    <Card card={card}></Card>
                 </div>
             </div>
         </div>
